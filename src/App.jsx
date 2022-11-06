@@ -5,6 +5,7 @@ import Reducer from './components/reducer';
 import { Route, Routes } from 'react-router-dom';
 import Home from './home';
 import ErrorPage from './ErrorPage';
+import Error from './components/Error';
 import ErrorBoundary from './components/ErrorBoundary';
 function App() {
   return (
