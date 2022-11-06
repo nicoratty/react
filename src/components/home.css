@@ -1,0 +1,30 @@
+.reducer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    color: white;
+}
+.reducer-header{
+    font-size: 42px;
+}
+.reducer-input{
+border: none;
+font-size: 21px;
+outline: none;
+}
+
+.reducer-increase, .reducer-decrease, .reducer-reset{
+    
+    font-size: 22px;
+    background-color: transparent;
+    font-weight: 600;
+    color: grey;
+padding: 7px;
+margin: 11px;
+}
+.reducer-decrease:hover, .reducer-increase:hover, .reducer-reset:hover{
+    cursor: pointer;
+}
